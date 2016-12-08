@@ -48,7 +48,7 @@ public class EnviaEmail {
 		System.out.println("autenticando...");
 		email.setSSL(true);
 		email.setTLS(true);
-		email.setAuthentication("testertechne4@gmail.com", "Testeiro84");
+		email.setAuthentication("login", "senha");
 		System.out.println("enviando...");
 		email.send();
 		System.out.println("Email enviado!");
